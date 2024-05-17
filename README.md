@@ -24,7 +24,7 @@ Program to implement the K Means Clustering for Customer Segmentation.
 Developed by: Tirupathi Jayadeep
 RegisterNumber: 212223240169
 */
-```
+
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -64,7 +64,7 @@ plt.scatter(df3["Annual Income (k$)"],df3["Spending Score (1-100)"],c="green",la
 plt.scatter(df4["Annual Income (k$)"],df4["Spending Score (1-100)"],c="magenta",label="cluster4")
 plt.legend()
 plt.title("Customer Segments")
-
+```
 ## Output:
 # Head()
 ![image](https://github.com/23004426/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/144979327/5fd7ff3c-bb7e-4c7b-9fda-121a140881d6)
